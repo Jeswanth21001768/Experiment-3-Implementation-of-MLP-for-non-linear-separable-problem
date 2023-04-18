@@ -40,6 +40,8 @@ Step 3: Repeat the  iteration  until the losses become constant and
 Step 4 : Test for the XOR patterns.
 
 ** PROGRAM** 
+
+
 import pandas as pd
 import sklearn
 from sklearn import preprocessing
@@ -73,8 +75,12 @@ print(classification_report(y_test,predictions))
 
 
  **OUTPUT** 
+ 
+ 
  <img width="491" alt="image" src="https://user-images.githubusercontent.com/94155480/232685267-ca1beb21-5da6-4d9a-a5eb-24b6f57356fd.png">
 
 
 ** RESULT**
+
+
 Thus the program for implementation for MLP executed sucessfully
