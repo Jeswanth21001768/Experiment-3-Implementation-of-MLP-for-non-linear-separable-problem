@@ -39,7 +39,10 @@ Step 3: Repeat the  iteration  until the losses become constant and
              (v)   Append the losses in a list
 Step 4 : Test for the XOR patterns.
 
-** PROGRAM** 
+** PROGRAM**
+
+```python
+
 
 
 import pandas as pd
@@ -98,10 +101,10 @@ print(predictions)
 print(confusion_matrix(y_test,predictions))
 
 print(classification_report(y_test,predictions))
-
+```
 
  **OUTPUT** 
- 
+
  
  <img width="491" alt="image" src="https://user-images.githubusercontent.com/94155480/232685267-ca1beb21-5da6-4d9a-a5eb-24b6f57356fd.png">
 
